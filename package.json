@@ -4,7 +4,7 @@
   "description": "Simple Peer to Peer Video Chat Application",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js:bundle.js --live"
+    "start": "index.js"
   },
   "repository": {
     "type": "git",
