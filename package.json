@@ -1,0 +1,22 @@
+{
+  "name": "peer2peervideochat",
+  "version": "1.0.0",
+  "description": "Simple Peer to Peer Video Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielhayespco/Peer2PeerVideoChat.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^4.2.2",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "simple-peer": "^9.4.0"
+  }
+}
