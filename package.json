@@ -4,7 +4,7 @@
   "description": "Simple Peer to Peer Video Chat Application",
   "main": "index.js",
   "scripts": {
-    "start": "index.js"
+    "start": "budo index.js:bundle.js --live"
   },
   "repository": {
     "type": "git",
@@ -13,8 +13,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "budo": "^4.2.2",
-    "watchify": "^3.11.1"
+    "budo": "^4.1.0"
   },
   "dependencies": {
     "simple-peer": "^9.4.0"
