@@ -1,20 +1,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Simple Chat</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    <label>Your ID:</label><br />
-    <textarea id="yourId"></textarea><br />
-    <label>Other ID:</label><br />
-    <textarea id="otherId"></textarea><br />
-    <button id="connect">connect</button><br />
+    <div class="main">
+      <label>Your ID:</label><br />
+      <textarea id="yourId"></textarea><br /><br />
+      <label>Other ID:</label><br />
+      <textarea id="otherId"></textarea><br /><br />
+      <button id="connect">connect</button><br />
 
-    <label>Enter Message:</label><br />
-    <textarea id="yourMessage"></textarea>
-    <button id="send">send</button>
-    <pre id="messages"></pre>
-
+      <label>Enter Message:</label><br />
+      <textarea id="yourMessage"></textarea><br /><br />
+      <button id="send">send</button><br />
+      <pre id="messages"></pre>
+    </div>
     <script src="bundle.js" charset="utf-8"></script>
   </body>
 </html>

@@ -20,6 +20,7 @@ navigator.webkitGetUserMedia(
     document.getElementById("send").addEventListener("click", function() {
       var yourMessage = document.getElementById("yourMessage").value;
       peer.send(yourMessage);
+      document.getElementById("messages").textContent += yourMessage + "\n";
     });
 
     peer.on("data", function(data) {

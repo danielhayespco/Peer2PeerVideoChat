@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+}
+
+video {
+  width: 100%;
+}
+
+#connect,
+#send {
+  color: white;
+  background-color: #56585f;
+  border-radius: 8px;
+  width: 50%;
+  height: 40px;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+}
+
+#send:hover {
+  color: #56585f;
+  background-color: white;
+  border-radius: 8px;
+}
+
+#send:focus {
+  outline: none;
+}
+
+#connect:hover {
+  color: #56585f;
+  background-color: white;
+  border-radius: 4px;
+}
+
+#connect:focus {
+  outline: none;
+}
+
+#yourId {
+  width: 100%;
+  margin: auto;
+}
+
+#otherId {
+  width: 100%;
+  margin: auto;
+}
+
+#yourMessage {
+  width: 100%;
+  margin: auto;
+}
+
+.main {
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#messages {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  word-wrap: break-word;
+}
