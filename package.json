@@ -13,7 +13,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "budo": "^4.1.0"
+    "budo": "^11.8.4"
   },
   "dependencies": {
     "simple-peer": "^9.4.0"
